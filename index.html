@@ -7,9 +7,11 @@
 <body>
 	<script>
 		var age = +prompt("Введите свой возраст", 0);
-
+		
 		if (age === 1 || age % 10 === 1) {
 			alert("Вам " + age + " год");
+		} else if (age === 2 || age === 3 || age === 4 || age % 10 === 2 || age % 10 === 3 || age % 10 === 4) {
+			alert("Вам " + age + " года");
 		}
 	</script>
 </body>
